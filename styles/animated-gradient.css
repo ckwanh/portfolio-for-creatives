@@ -1,12 +1,14 @@
 :root {
   --gradient: linear-gradient(
     45deg,
-    #d4bee4,
-    #cfbcf1,
-    #cfbee4,
-    #b89fd7,
-    #c6bad7,
-    #e5dcf6
+    /*
+    #cbdbe1,
+    #a6b7dd,
+    #5ebfe0,
+    #a4cdd1,
+    #0097d0
+    */ #f3fdfe,
+    #fdf9f3
   );
 }
 

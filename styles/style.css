@@ -117,59 +117,59 @@
   --font-family-heading: "MuseoModerno", sans-serif;
   --font-family-project-title: "MuseoModerno", sans-serif;
   /* Core Colours */
-  --color-text-primary: #222;
-  --color-text-secondary: #333;
-  --color-accent-primary: #7883e7;
-  --color-accent-secondary: #ff057c;
-  --color-overlay-primary: rgba(82, 0, 255, 0.5);
+  --color-text-primary: #010d1e;
+  --color-text-secondary: #32373b;
+  --color-accent-primary: #5ebfe0;
+  --color-accent-secondary: #0096a5;
+  --color-overlay-primary: rgba(0, 151, 208, 0.5);
   --color-highlight: lemonchiffon;
-  --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
+  --color-fallback: #0096a5; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
-  --color-bg: #fdfdfd;
-  --color-bg-about: #f5f5f5;
-  --color-bg-footer: #f5f5f5;
-  --color-bg-holding-page: rgba(82, 0, 255, 0.6);
+  --color-bg: #f4f5f5;
+  --color-bg-about: #fdf9f3;
+  --color-bg-footer: #fdf9f3;
+  --color-bg-holding-page: rgba(0, 151, 208, 0.6);
   /* Headings */
-  --h1-color: #5200ff;
-  --h2-color: #5200ff;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
+  --h1-color: #173b6f;
+  --h2-color: #173b6f;
+  --h3-color: #173b6f;
+  --h4-color: #173b6f;
+  --h5-color: #173b6f;
+  --h6-color: #173b6f;
   /* Special Text Colours */
-  --color-text-holding-title: #ebedf0;
+  --color-text-holding-title: #ebf6fc;
   --color-text-project-category: #ffffff;
   --color-text-project-description: #222;
   --color-text-project-sidebar: #222;
-  --color-text-project-title: #5200ff;
+  --color-text-project-title: #173b6f;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
-  --color-link: #5200ff;
-  --color-link-hover: #111;
-  --color-link-visited: #5200ff;
+  --color-link: #87b7e5;
+  --color-link-hover: #2f71a3;
+  --color-link-visited: #87b7e5;
   /* Navigation */
-  --color-nav-link: #5200ff;
+  --color-nav-link: #87b7e5;
   --color-nav-link-hover: #321575;
-  --color-nav-arrow: #5200ff;
-  --color-nav-arrow-hover: #000;
-  --color-nav-arrow-stroke: #5200ff;
-  --color-nav-arrow-stroke-hover: #000;
+  --color-nav-arrow: #87b7e5;
+  --color-nav-arrow-hover: #2f71a3;
+  --color-nav-arrow-stroke: #87b7e5;
+  --color-nav-arrow-stroke-hover: #2f71a3;
   /* Components */
-  --color-bg-full-width: #f5f5f5;
-  --color-bg-project-description: #f5f5f5;
+  --color-bg-full-width: #ebf6fc;
+  --color-bg-project-description: #ebf6fc;
   --color-bg-sidebar-project: transparent;
-  --color-bg-sidebar-work: lemonchiffon;
-  --color-gradient-hero: linear-gradient(90deg, #ff00ff, #00ffff);
+  --color-bg-sidebar-work: #ebf6fc;
+  --color-gradient-hero: linear-gradient(90deg, #0096a5, #b6dbe4);
   --color-gradient-project-details: linear-gradient(
     -225deg,
-    #ff057c 0%,
-    #8d0b93 50%,
-    #321575 100%
+    #a4cdd1 0%,
+    #a5b7dd 50%,
+    #5ebfe0 100%
   );
   /* Special Elements */
-  --color-icon-heart: darkred;
+  --color-icon-heart: #a5b7dd;
   --color-text-holding-footer: #f8f8ff;
-  --color-bg-selection: #5200ff;
+  --color-bg-selection: #0097d0;
   --color-shadow-stroke: rgba(0, 0, 0, 0.4);
   /* Assets */
   --image-noise-texture: url(/assets/temp/noise.svg);
@@ -220,7 +220,7 @@ html {
   box-sizing: border-box; /* Makes sure padding and borders don't add extra width to elements */
   scroll-behavior: smooth; /* Adds smooth scrolling between sections */
   cursor:
-    url("../assets/temp/up-cursor.png"), auto !important; /* Custom cursor (change the URL below to use your own) */
+    url("../assets/temp/icons8-hedia-cursor-30.png"), auto !important; /* Custom cursor Cursor icon by Icons8, self edited (change the URL below to use your own) */
 
   /* TODO: Replace the URL above to add a custom cursor. 
      If you want to use the default browser cursor, just delete this line. */
