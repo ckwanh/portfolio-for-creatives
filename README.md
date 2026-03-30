@@ -91,7 +91,7 @@ These are great first steps to customize your portfolio visually without writing
    👉 For a longer bio, open `about.html` and replace the demo text with your story.
 
 6. **Edit your project pages**  
-   Open `project-1-wordpress-website.html.html`, `project-2.html`, or `project-3.html`.  
+   Open `project-1-wordpress-website.html.html`, `project-2-figma-app-platesmart.html.html`, or `project-3.html`.  
    Replace the placeholder title and description with your actual project details.
 
 After making these changes, visit your live site to see the changes in action!
