@@ -145,15 +145,15 @@
   --color-text-project-title: #173b6f;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
-  --color-link: #87b7e5;
-  --color-link-hover: #2f71a3;
-  --color-link-visited: #87b7e5;
+  --color-link: #2f71a3;
+  --color-link-hover: #321575;
+  --color-link-visited: #0096a5;
   /* Navigation */
   --color-nav-link: #87b7e5;
   --color-nav-link-hover: #321575;
-  --color-nav-arrow: #87b7e5;
+  --color-nav-arrow: #173b6f;
   --color-nav-arrow-hover: #2f71a3;
-  --color-nav-arrow-stroke: #87b7e5;
+  --color-nav-arrow-stroke: #173b6f;
   --color-nav-arrow-stroke-hover: #2f71a3;
   /* Components */
   --color-bg-full-width: #ebf6fc;
