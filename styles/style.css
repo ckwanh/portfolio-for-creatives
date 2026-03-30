@@ -119,6 +119,7 @@
   /* Core Colours */
   --color-text-primary: #010d1e;
   --color-text-secondary: #32373b;
+  --color-text-light: #ebf6fc;
   --color-accent-primary: #5ebfe0;
   --color-accent-secondary: #0096a5;
   --color-overlay-primary: rgba(0, 151, 208, 0.5);
@@ -536,7 +537,7 @@ sup {
 
 /* Main hero headline — usually sits in the intro section */
 .hero-headline {
-  color: var(--color-accent-primary); /* Uses your brand's dominant color */
+  color: var(--color-text-light);
   max-width: 40ch; /* Optimal line length for readability (~40 characters) */
   text-wrap: balance; /* Prevents awkward line breaks (like elegant typography) */
   margin-inline: auto; /* Horizontally centers the text in its container */
@@ -695,10 +696,29 @@ a.nav-link-primary:hover {
 
 .hero {
   width: 100%;
-  min-height: 80vh; /* Takes up most of the screen height */
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
+  --size: 50px;
+  --m: 1.5;
+  --p: calc(var(--m) * var(--size));
+  --R: calc(var(--size) * sqrt(var(--m) * var(--m) + 1));
+
+  mask:
+    radial-gradient(
+        var(--R) at left 50% bottom calc(var(--size) + var(--p)),
+        #000 99%,
+        #0000 101%
+      )
+      calc(50% - 2 * var(--size)) 0 / calc(4 * var(--size)) 100%,
+    radial-gradient(
+        var(--R) at left 50% bottom calc(-1 * var(--p)),
+        #0000 99%,
+        #000 101%
+      )
+      left 50% bottom var(--size) / calc(4 * var(--size)) 100% repeat-x;
 }
+
 .hero-header {
   min-height: 6rem; /* Space reserved for logo + nav */
 }
@@ -752,6 +772,7 @@ a.nav-link-primary:hover {
   flex-direction: row;
   justify-content: space-between;
   padding: var(--padding-small);
+  margin-bottom: 9%;
 }
 
 /*
