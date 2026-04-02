@@ -700,7 +700,7 @@ a.nav-link-primary:hover {
   display: flex;
   flex-direction: column;
   --size: 50px;
-  --m: 1.5;
+  --m: 1.8;
   --p: calc(var(--m) * var(--size));
   --R: calc(var(--size) * sqrt(var(--m) * var(--m) + 1));
 
