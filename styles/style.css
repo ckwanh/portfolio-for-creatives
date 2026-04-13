@@ -1247,12 +1247,15 @@ a.nav-link-primary:hover {
 .project-info-list {
   margin-bottom: 1rem;
 }
+.project-info {
+  text-align: center;
+}
 .project-item {
   font-size: 1rem;
   line-height: 1.2; /* Consistent line height for project items to improve spacing */
   margin-bottom: 0.25rem;
 }
-
+.
 /*
 
 ██████  ██       ██████   ██████      ██ ██████  ███████ ███████ ██    ██ ███    ███ ███████ 
