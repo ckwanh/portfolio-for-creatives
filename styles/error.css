@@ -100,3 +100,24 @@
     transform: translate(3px, 1px);
   }
 }
+
+/* floating cat */
+.float-img {
+  width: 30%;
+  height: auto;
+}
+
+.float {
+  transform: rotate(0deg) translate(0, -30%);
+  animation-name: FloatAnimatioin;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+@keyframes FloatAnimatioin {
+  0% {
+    transform: rotate(0deg) translate(0, -20%);
+  }
+}
