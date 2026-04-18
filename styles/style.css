@@ -936,6 +936,11 @@ a.nav-link-primary:hover {
   /* Placeholder: no custom styles yet */
 }
 
+.ghost-cat {
+  width: 20%;
+  height: auto;
+}
+
 /*
 
 ███████ ██ ██████  ███████ ██████   █████  ██████  
@@ -1268,7 +1273,7 @@ a.nav-link-primary:hover {
 
 /* Blog and Resume page styles */
 
-.text-section {
+ .text-section {
   width: 100%;
   background: var(--color-bg);
   padding: var(--padding-small);
