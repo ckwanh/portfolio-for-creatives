@@ -173,7 +173,7 @@
   --color-bg-selection: #0097d0;
   --color-shadow-stroke: rgba(0, 0, 0, 0.4);
   /* Assets */
-  --image-noise-texture: url(/assets/temp/noise.svg);
+  --image-noise-texture: url(/assets/uploads/noise.svg);
   /* Animation Durations */
   --duration-fast: 0.15s; /* Quick interactions (hover states) */
   --duration-normal: 0.3s; /* Standard transitions (button clicks) */
@@ -221,7 +221,7 @@ html {
   box-sizing: border-box; /* Makes sure padding and borders don't add extra width to elements */
   scroll-behavior: smooth; /* Adds smooth scrolling between sections */
   cursor:
-    url("../assets/temp/icons8-hedia-cursor-30.png"), auto !important; /* Custom cursor Cursor icon by Icons8, self edited (change the URL below to use your own) */
+    url("../assets/uploads/icons8-hedia-cursor-30.png"), auto !important; /* Custom cursor Cursor icon by Icons8, self edited (change the URL below to use your own) */
 
   /* TODO: Replace the URL above to add a custom cursor. 
      If you want to use the default browser cursor, just delete this line. */
