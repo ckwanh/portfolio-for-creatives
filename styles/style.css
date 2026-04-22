@@ -221,7 +221,7 @@ html {
   box-sizing: border-box; /* Makes sure padding and borders don't add extra width to elements */
   scroll-behavior: smooth; /* Adds smooth scrolling between sections */
   cursor:
-    url("../assets/uploads/icons8-hedia-cursor-30.png"), auto !important; /* Custom cursor Cursor icon by Icons8, self edited (change the URL below to use your own) */
+    url("../assets/branding-images/icons8-hedia-cursor-30.png"), auto !important; /* Custom cursor Cursor icon by Icons8, self edited (change the URL below to use your own) */
 
   /* TODO: Replace the URL above to add a custom cursor. 
      If you want to use the default browser cursor, just delete this line. */
