@@ -1,18 +1,14 @@
-hug a tree night market platesmart sketchbook
+sketchbook
 
 F: first-name-last-name--project-title--category--placeholder
 to real pic, current as comments
 
-
-
 sketchbook
 
-resize images
 rename images
-relocate images
 
-alt of images (work,404,index ok)
+resize + alt of images (sketchbook)
 
-delete unneeded
 
-to videos
+interactive elements
+videos/svg/
