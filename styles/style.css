@@ -1273,7 +1273,7 @@ a.nav-link-primary:hover {
 
 /* Blog and Resume page styles */
 
- .text-section {
+.text-section {
   width: 100%;
   background: var(--color-bg);
   padding: var(--padding-small);
