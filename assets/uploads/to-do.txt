@@ -1,14 +1,6 @@
-sketchbook
-
-F: first-name-last-name--project-title--category--placeholder
-to real pic, current as comments
-
-sketchbook
-
 rename images
 
-resize + alt of images (sketchbook)
-
-
 interactive elements
-videos/svg/
+videos/svg
+
+hedia-chan-figma-disembark-app-
